@@ -1,0 +1,42 @@
+.container {
+  margin-top: 2em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toolbar {
+  display: flex;
+}
+
+.filter {
+  margin: 5px;
+  padding: 5px 10px;
+
+  color: rgb(66, 66, 66);
+  font-size: 1em;
+
+  border: 1px solid rgb(66, 66, 66)
+}
+
+.filter:first-child {
+  margin-left: 0;
+}
+
+.filter:hover {
+  background: rgb(160, 160, 160);
+}
+
+.active {
+  background: rgb(66, 66, 66);
+  color:  rgb(255, 255, 255);
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 5px;
+}
