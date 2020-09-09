@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import projects from "./data";
 import Toolbar from './Toolbar';
 import ProjectList from './ProjectList';
@@ -27,9 +26,5 @@ export class Portfolio extends Component {
     );
   }
 }
-
-Portfolio.propTypes = {
-
-};
 
 export default Portfolio;
